@@ -1,0 +1,243 @@
+@media screen and (max-width: 913px){
+    .form-container {
+      width: 370px;
+    }
+    .form-container form {
+      margin: 0 auto;
+     }
+     .form-container form input {
+      width: 318px;
+      font-size: 11px;
+    }
+  
+    .bi-eye-slash-fill {
+      left: 300px;
+       }
+   
+       .bi-eye-fill {
+         left: 300px;
+          }
+
+          .form-container-links {
+            font-size: 12.5px;
+           }
+
+           .form-container-buttons-line .paragraph-form {
+            font-size: 9px;
+           }
+
+           .form-container-buttons-line .btn-form {
+            width: 143px;
+           }
+
+           .form-icons .form-btns-icons {
+            width: 100px;
+            height: 38px;
+            font-size: 13px;
+           }
+
+           .form-icons .form-btns-icons .bi {
+            font-size: 20px;
+           }
+
+           .form-btns-icons .form-btns-icons-google {
+            height: 21px;
+ }
+
+ .footer-form-paragraph {
+  font-size: 11px;
+}
+
+.form-footer-link {
+  font-size: 12px;
+}
+
+.main-container-icon-paragraph
+  .bi.bi-bag-fill {
+   font-size: 150px;
+  }
+
+  .icon-paragraph {
+    font-size: 120px;
+    left: -120px;
+    top: 4px;
+  }
+
+  .main-container-h1 {
+  font-size: 45px;
+  margin-top: 19px;
+  }
+
+  .main-container-paragraph {
+    font-size: 20px;
+  }
+
+  .main-container-span {
+  position: relative;
+  left: 60px;
+  }
+        
+    .footer-container {
+      justify-content: space-between;
+      padding-right: 19px;
+    }
+
+    .footer-container-customer-service, .footer-container-about-shopee {
+      margin-right: 10px;
+    }
+
+      .footer-container .all-h5 {
+        font-size: 11px;
+      }
+
+        .footer-container-download {
+          left: 19px;
+        }
+
+    .btn-final-footer {
+      width: 85%;
+    }
+
+      .footer-final {
+        justify-content: center;
+      }
+
+    .final-footer-paragraph {
+     font-size: 9px;
+     margin-left: -20px;
+    }
+
+      .final-footer-btns .final-footer-btn2 {
+        font-size: 10px;
+    }
+
+
+    .final-footer-btns button {
+      font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width: 810px) {
+
+    .form-container  {
+      margin-left: 90px;
+    }
+    .main-container-icon-paragraph {
+      display: none;
+    }  
+
+    .footer-final {
+      display: block;
+    }
+
+    .footer-container-customer-service {
+     margin-left: -17px;
+    }
+
+    .footer-container-payment {
+     margin-right: 10px;
+    }
+
+    .footer-container-download {
+      left: 40px;
+    }
+
+
+    .footer-link-img2 {
+      left: 3px;
+      top: 7px;
+    }
+
+    .final-footer-paragraph {
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 566px) {
+    
+     .header-container-header .bi.bi-bag-fill {
+      font-size: 30px;
+      margin-left: -80px;
+      margin-top: -6px;
+     }
+    
+     .header-container-header .bi.bi-bag-fill .header-container-bag-fill {
+      font-size: 20px;
+      left: -23px;
+     }
+    
+     .header-container-header .header-h1 {
+      font-size: 19px;
+      margin-left: 2px;
+     }
+    
+     .header-container-header .header-h2 {
+      font-size: 19px;
+     }
+    
+     .header-container .link-header {
+      font-size: 12.5px;
+      margin-top: 33px;
+      margin-right: 11px;
+    
+     }
+
+     .form-container {
+      margin-left: 60px;
+     }
+
+    .footer-container {
+      display: block;
+    }
+
+    .footer-container .all-h5 {
+      margin-top: 20px;
+    }
+
+    .footer-container-customer-service {
+     margin-left: -10px;
+    }
+
+    .footer-container-about-shopee {
+      margin-left: -10px;
+    }
+
+    .footer-container-payment {
+      margin-left: -10px;
+    }
+
+    .footer-container-download {
+      left: -14px;
+    }
+
+    .btn-final-footer {
+      width: 360px;
+    }
+
+    .footer-final {
+      display: block;
+    }
+
+    .final-footer-paragraph {
+     text-align: center;
+    }
+
+    .final-footer-btns {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 464px) {
+
+    .form-container  {
+      margin-left: 50px;
+    }
+   
+  }
+
+  @media screen and (max-width: 460px) {
+
+    .btn-final-footer {
+      width: 300px;
+    }
+  }

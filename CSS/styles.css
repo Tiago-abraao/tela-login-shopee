@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  body {
+    background-color: #f8f5f5;
+  }
+
+ .header-container {
+  width: 100%;
+  height: 83px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .header-container-header {
+  display: flex;
+  gap: 10px;
+  margin-top: 22px;
+  margin-left: 110px;
+ }
+
+ .header-container-header .bi.bi-bag-fill {
+  color: #f94421;
+  font-size: 38px;
+  margin-right: -25px;
+  margin-top: -6px;
+ }
+
+ .header-container-header .bi.bi-bag-fill .header-container-bag-fill {
+  color: #fff;
+  font-size: 26px;
+  position: relative;
+  left: -29px;
+  font-weight: 100;
+ }
+
+ .header-container-header .header-h1 {
+  color: #f94421;
+  font-size: 25px;
+  font-weight: 100;
+  margin-top: 6px;
+ }
+
+ .header-container-header .header-h2 {
+  font-size: 23px;
+  font-weight: 100;
+  margin-top: 7px;
+ }
+
+ .header-container .link-header {
+  text-decoration: none;
+  color: #f94421;
+  font-size: 14px;
+  margin-top: 33px;
+  margin-right: 90px;
+
+ }
+
+ .main-container {
+  background-color: #f94421;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+ }
+ 
+
+ .form-container {
+  display: flex;
+  background-color: #fff;
+  margin-right: 50px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px 5px rgba(184, 170, 170, 0.1);
+ }
+
+ .form-container-h2 {
+  font-weight: 100;
+  font-size: 21px;
+  margin-top: 21px;
+  margin-left: 28px;
+ }
+
+ .form-container form {
+  width: 400px;
+  height: 470px;
+  margin-top: 11px;
+ }
+
+
+ .form-container form input {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ece6e5;
+  border-radius: 3px;
+  width: 340px;
+  margin: 0 auto;
+  padding: 12px;
+  margin-top: 30px;
+ }
+
+
+.bi-eye-fill {
+ position: relative;
+ left: 335px;
+ top: -30px;
+ color: #6e6967;
+ font-size: 19px;
+}
+
+.bi-eye-slash-fill {
+  position: relative;
+ left: 335px;
+ top: -30px;
+ color: #6e6967;
+ font-size: 19px;
+}
+
+ .form-container .form-container-btn {
+  background-color: #f85635;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 13px;
+ }
+
+ .form-container .form-container-btn:hover {
+  background-color: #fa6b4f;
+ }
+
+ .form-container .form-container-btn:focus {
+  background-color: #f85332;
+  border: 1px solid white;
+ }
+
+ .form-container form input:focus {
+  border: .1px solid black;
+  outline: none;
+ }
+
+ .form-container form input::placeholder {
+  color: #dbd3d1;
+  font-size: 15px;
+ }
+
+ .form-container-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  font-size: 13px;
+ }
+
+ .form-container-links a {
+  text-decoration: none;
+  color:#05a;
+ }
+
+ .form-container-link1 {
+  margin-left: -14px;
+ }
+
+ .form-container-link2 {
+  margin-right: -13px;
+ }
+
+ .form-container-buttons-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 11px;
+ }
+
+ .form-container-buttons-line .paragraph-form {
+  font-size: 11px;
+  color: #aca3a2;
+  margin-right: 9px;
+  margin-left: 9px;
+ }
+
+ .form-container-buttons-line .btn-form {
+  width: 152px;
+  border-bottom: 1px solid #e6dad8;
+ }
+
+ .form-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 10px;
+ }
+
+ .form-icons .form-btns-icons {
+  width: 107px;
+  height: 38px;
+  background-color: #fff;
+  font-size: 15px;
+  margin-right: 10px;
+  padding-bottom: 5px;
+  border: 0.5px solid #cabdbb;
+  border-radius: 2px;
+ }
+
+ .form-icons .form-btns-icons:hover {
+  cursor: pointer;
+  background-color: #fdfafa;
+ }
+
+ .form-icons .form-btns-icons .bi {
+  font-size: 22px;
+  margin-right: 5px;
+ }
+
+ .form-icons .form-btns-icons .bi.bi-facebook {
+  color: rgb(17, 97, 177);
+  position: relative;
+  top: 4px;
+ }
+
+ .form-btns-icons .form-btns-icons-google {
+  height: 23px;
+  margin-top: 7px;
+ }
+
+ .form-icons .form-btns-icons .bi.bi-apple {
+  position: relative;
+  top: 4px;
+  font-size: 20px;
+ }
+
+
+ .form-icons-textg{
+ position: relative;
+ top: -8px;
+ left: 5px;
+  }
+
+  .footer-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+  }
+
+  .footer-form-paragraph {
+    font-size: 14px;
+    color: #cabdbb;
+    margin-right: 5px;
+  }
+
+  .form-footer-link {
+    text-decoration: none;
+    font-size: 15px;
+    color: #f94421;
+    font-weight: bold;
+  }
+
+
+  .main-container-icon-paragraph {
+    display: block;
+   margin-left: 160px;
+   margin-bottom: 100px;
+  }
+
+  .main-container-icon-paragraph
+  .bi.bi-bag-fill {
+   font-size: 200px;
+   color: #fff;
+   position: relative;
+   top: 30px;
+
+  }
+
+  .icon-paragraph {
+    font-size: 150px;
+    font-weight: 100;
+    color: #f94421;
+    position: relative;
+    left: -155px;
+    top: 4px;
+  }
+
+  .main-container-h1 {
+  color: #fff;
+  font-size: 60px;
+  margin-top: 10px;
+  margin-left: -5px;
+  font-weight: 100;
+  }
+
+  .main-container-paragraph {
+    color: #fdfafa;
+    position: relative;
+    bottom: -80px;
+    font-size: 25px;
+    margin-left: -55px;
+  }
+
+  .main-container-span {
+  position: relative;
+  left: 60px;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 85%;
+    margin-left: 30px;
+  }
+
+
+  .footer-container .all-h5 {
+    margin-bottom: 20px;
+  }
+
+
+  .footer-container-customer-service {
+    display: flex;
+    flex-direction: column;
+    margin-left: 22px;
+  }
+
+  .footer-container-customer-service a {
+    text-decoration: none;
+    font-size: 12.5px;
+    padding-bottom: 15px;
+    color: #665f5f;
+  }
+
+  .footer-container-customer-service a:hover {
+    color: #f94421;
+}
+  .footer-container-about-shopee {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-container-about-shopee a {
+    text-decoration: none;
+    font-size: 12.5px;
+    padding-bottom: 15px;
+    color: #665f5f;
+  }
+
+  .footer-container-about-shopee a:hover {
+    color: #f94421;
+  }
+
+  .footer-container-payment button {
+    border-bottom: 1px solid rgb(190, 180, 180);
+  }
+
+  .payment-footer-image
+ {
+    width: 60px;
+    height: 31px;
+    background-color: #fff;
+    margin-bottom: 6px;
+  }
+ 
+  .footer-container-follow {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -10px;
+  }
+
+  .footer-container-follow .footer-follow-links {
+    text-decoration: none;
+    padding-bottom: 13px;
+    color: #665f5f;
+    font-size: 12px;
+  }
+
+  .footer-container-follow .footer-follow-links:hover {
+    color: #f94421;
+  }
+
+  .footer-container-follow .footer-follow-links .bi {
+    color: #665f5f;
+    position: relative;
+    top: 2px;
+    padding-right: 8px;
+   font-size: 15px;
+  }
+ 
+  .footer-container-download {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: -80px;
+  }
+
+
+
+   .imgfirst {
+    background-color: #fff;
+    border: 5.5px solid #fff;
+    border-bottom: 1px solid rgb(190, 180, 180);
+    cursor: pointer;
+  }
+
+
+   
+  .footer-link-img2 {
+    position: relative;
+    left: 100px;
+    top: -90px;
+  }
+
+  .form-container-links {
+    font-size: 12.5px;
+   }
+  
+
+  .footer-link-img2 button {
+    background-color: #fff;
+    margin-bottom: 5px;
+  }
+
+  .footer-link-image {
+    border: 3px solid #fff;
+    border-bottom: 1px solid rgb(190, 180, 180);
+    cursor: pointer;
+  }
+
+  .btn-final-footer {
+    border-bottom: .5px solid rgb(216, 203, 203);
+    width: 89%;
+    margin-left: 83px;
+    margin-bottom: 30px;
+  }
+
+
+  .footer-final {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .final-footer-paragraph {
+    margin-top: 17px;
+    margin-left: 28px;
+    padding-bottom: 50px;
+    color: #665f5f;
+    font-size: 14px;
+  }
+
+
+  .final-footer-btns {
+    display: flex;
+    color: #665f5f;
+    margin-left: 40px;
+  }
+
+
+  .final-footer-btns .final-footer-btn2 {
+    margin-right: 8px;
+    margin-top: 17px;
+    font-size: 14px;
+  }
+ 
+
+  .final-footer-btns button {
+    height: 18px;
+    background-color: transparent;
+    padding-right: 7px;
+    border-right: 0.5px solid #aca3a2;
+    font-size: 14px;
+    margin-top: 16px;
+    margin-right: 6px;
+    margin-left: -1px;
+    color: #665f5f;
+    cursor: pointer;
+  }
+
+  .final-footer-btns .btn-chile {
+ border: none;
+  }
+  
+  
